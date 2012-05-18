@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/">
 	<title>搜索 PHP 的结果</title>
 	<opensearch:startIndex>1</opensearch:startIndex>
-	<opensearch:totalResults>6828</opensearch:totalResults>
+	<opensearch:totalResults>6829</opensearch:totalResults>
 	<entry>
 		<id>http://api.douban.com/book/subject/1958938</id>
 		<title>PHP与MySQL 5程序设计</title>
@@ -195,7 +195,7 @@
 		<db:attribute name="price">80.00元</db:attribute>
 		<db:attribute name="publisher">电子工业出版社</db:attribute>
 		<db:attribute name="pubdate">2009-3</db:attribute>
-		<gd:rating average="7.6" max="10" min="0" numRaters="147"/>
+		<gd:rating average="7.6" max="10" min="0" numRaters="148"/>
 	</entry>
 	<entry>
 		<id>http://api.douban.com/book/subject/3765462</id>

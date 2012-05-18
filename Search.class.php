@@ -9,7 +9,7 @@ class Search
 	private $curPage;
 	private $pageField;
 	private $path = "http://api.douban.com/book/subjects";
-	private $apikey = '0b588882c65916bc22099988530b4434';
+	private $apikey = '0954fe4c5321aaea1bfefae4f96500be';
 	private $result;
 	private $items;
 	

@@ -5,10 +5,7 @@ define( 'API' , 'http://api.douban.com/book/subject/isbn/');
 
 $item = new Item( $_GET['isbn'] );
 $item->getInfo();
-//$ch = curl_init( API.$isbn );
-//curl_setopt( $ch , CURLOPT_RETURNTRANSFER , true );
-//curl_setopt( $ch , CURLOPT_BINARYTRANSFER , true );
-//$info = curl_exec( $ch );
+$info = $item->show();
 ?>
 <!DOCTYPE html> 
 	<html> 
@@ -22,7 +19,10 @@ $item->getInfo();
 		</head> 
 		<body>
 			<div data-role="page" id="search" data-theme="b">
-				<?=API.$_GET['isbn'] ?>
+<?php 
+API.$_GET['isbn'];
+print_r($info);
+?>
 			</div>
 		</body>
 	</html>
