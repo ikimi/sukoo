@@ -23,12 +23,17 @@ $items = $result->search();
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
 		<script type="text/javascript">
-		$('form').submit(function() {
-			var	value = $('#search').val();
-			alert(value);
-			if(value == null || value == '')
-				return false;
-		});
+			$('#more').click(function() {
+				//接收json
+				//l
+				
+
+				//在自己的前面插入节点 
+				var num = $('#num').text();
+				num += 10;
+				$('#num').text(num);
+
+			});
 		</script>
 	</head> 
 	<body>
@@ -46,7 +51,6 @@ $items = $result->search();
 foreach($items as $item)
 {
 	echo "<li>";
-//	<img src="http://img.freebase.com/api/trans/image_thumb/en/henry_viii_of_england?pad=1&errorid=%2Ffreebase%2Fno_image_png&maxheight=64&mode=fillcropmid&maxwidth=64" />
 	echo "<h3><a href='book.php?isbn={$item['isbn']}'>{$item['title']}</a></h3>";
 	if(isset($item['translator']))
 		echo "<p>{$item['author']}/{$item['translator']}";
@@ -57,6 +61,9 @@ foreach($items as $item)
 }
 ?>
 			</ul>
+			<?php $more = '更多'.$result->getMore().'条';?>
+<input id="more" name="submit" type="submit" value='<?=$more?>'>
+<div id="num">11</div>
 		</div>
 	</body>
 </html>

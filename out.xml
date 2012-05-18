@@ -1,220 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/">
-	<title>搜索 PHP 的结果</title>
+	<title>搜索 C++ 的结果</title>
 	<opensearch:startIndex>1</opensearch:startIndex>
-	<opensearch:totalResults>6829</opensearch:totalResults>
+	<opensearch:totalResults>52120</opensearch:totalResults>
 	<entry>
-		<id>http://api.douban.com/book/subject/1958938</id>
-		<title>PHP与MySQL 5程序设计</title>
+		<id>http://api.douban.com/book/subject/2302333</id>
+		<title>C++</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>W.Jason Gilmore</name>
-		</author>
-		<link href="http://api.douban.com/book/subject/1958938" rel="self"/>
-		<link href="http://book.douban.com/subject/1958938/" rel="alternate"/>
-		<link href="http://img1.douban.com/spic/s2160043.jpg" rel="image"/>
-		<db:attribute name="isbn10">7115155097</db:attribute>
-		<db:attribute name="isbn13">9787115155092</db:attribute>
-		<db:attribute name="translator">朱涛江</db:attribute>
-		<db:attribute name="author">W.Jason Gilmore</db:attribute>
-		<db:attribute name="price">79</db:attribute>
-		<db:attribute name="publisher">人民邮电出版社</db:attribute>
-		<db:attribute name="pubdate">2007年01月</db:attribute>
-		<gd:rating average="7.8" max="10" min="0" numRaters="275"/>
-	</entry>
-	<entry>
-		<id>http://api.douban.com/book/subject/3549421</id>
-		<title>PHP和MySQL Web开发(原书第4版)</title>
-		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
-		<author>
-			<name>Luke Welling</name>
+			<name>Steve Heller</name>
 		</author>
 		<author>
-			<name>Laura Thomson</name>
+			<name>Chrysalis Software Corp.</name>
 		</author>
-		<link href="http://api.douban.com/book/subject/3549421" rel="self"/>
-		<link href="http://book.douban.com/subject/3549421/" rel="alternate"/>
-		<link href="http://img1.douban.com/spic/s3773304.jpg" rel="image"/>
-		<db:attribute name="isbn10">7111262816</db:attribute>
-		<db:attribute name="isbn13">9787111262817</db:attribute>
-		<db:attribute name="translator">武欣</db:attribute>
-		<db:attribute name="author">Luke Welling</db:attribute>
-		<db:attribute name="author">Laura Thomson</db:attribute>
-		<db:attribute name="price">95.00元</db:attribute>
-		<db:attribute name="publisher">机械工业出版社</db:attribute>
-		<db:attribute name="pubdate">2009</db:attribute>
-		<gd:rating average="8.5" max="10" min="0" numRaters="353"/>
-	</entry>
-	<entry>
-		<id>http://api.douban.com/book/subject/3253845</id>
-		<title>Head First PHP &amp; MySQL</title>
-		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
-		<author>
-			<name>Lynn Beighley</name>
-		</author>
-		<author>
-			<name>Michael Morrison</name>
-		</author>
-		<link href="http://api.douban.com/book/subject/3253845" rel="self"/>
-		<link href="http://book.douban.com/subject/3253845/" rel="alternate"/>
-		<link href="http://img1.douban.com/spic/s8959264.jpg" rel="image"/>
-		<db:attribute name="isbn10">0596006306</db:attribute>
-		<db:attribute name="isbn13">9780596006303</db:attribute>
-		<db:attribute name="author">Lynn Beighley</db:attribute>
-		<db:attribute name="author">Michael Morrison</db:attribute>
+		<link href="http://api.douban.com/book/subject/2302333" rel="self"/>
+		<link href="http://book.douban.com/subject/2302333/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s2763674.jpg" rel="image"/>
+		<db:attribute name="isbn10">0130094021</db:attribute>
+		<db:attribute name="isbn13">9780130094025</db:attribute>
+		<db:attribute name="author">Steve Heller</db:attribute>
+		<db:attribute name="author">Chrysalis Software Corp.</db:attribute>
 		<db:attribute name="price">USD 44.99</db:attribute>
-		<db:attribute name="publisher">O'Reilly Media</db:attribute>
-		<db:attribute name="pubdate">2008-12-29</db:attribute>
-		<gd:rating average="8.9" max="10" min="0" numRaters="36"/>
+		<db:attribute name="publisher">Prentice Hall PTR</db:attribute>
+		<db:attribute name="pubdate">2002-08-30</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="5"/>
 	</entry>
 	<entry>
-		<id>http://api.douban.com/book/subject/1340507</id>
-		<title>PHP和MySQL Web开发（原书第3版）</title>
+		<id>http://api.douban.com/book/subject/1692394</id>
+		<title>C++</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>Luke Welling</name>
+			<name>Herbert Schildt</name>
 		</author>
-		<author>
-			<name>Laura Thomson</name>
-		</author>
-		<link href="http://api.douban.com/book/subject/1340507" rel="self"/>
-		<link href="http://book.douban.com/subject/1340507/" rel="alternate"/>
-		<link href="http://img3.douban.com/spic/s1627655.jpg" rel="image"/>
-		<db:attribute name="isbn10">7111154703</db:attribute>
-		<db:attribute name="isbn13">9787111154709</db:attribute>
-		<db:attribute name="translator">武欣</db:attribute>
-		<db:attribute name="translator">邵煜</db:attribute>
-		<db:attribute name="publisher">第1版 (2005年12月1日)</db:attribute>
-		<db:attribute name="author">Luke Welling</db:attribute>
-		<db:attribute name="author">Laura Thomson</db:attribute>
-		<db:attribute name="price">78.0</db:attribute>
-		<db:attribute name="pubdate">2005-6</db:attribute>
-		<gd:rating average="8.5" max="10" min="0" numRaters="437"/>
+		<link href="http://api.douban.com/book/subject/1692394" rel="self"/>
+		<link href="http://book.douban.com/subject/1692394/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s7068520.jpg" rel="image"/>
+		<db:attribute name="isbn10">0072226803</db:attribute>
+		<db:attribute name="isbn13">9780072226805</db:attribute>
+		<db:attribute name="author">Herbert Schildt</db:attribute>
+		<db:attribute name="price">USD 52.99</db:attribute>
+		<db:attribute name="publisher">McGraw-Hill Osborne Media</db:attribute>
+		<db:attribute name="pubdate">2002-11-19</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="4"/>
 	</entry>
 	<entry>
-		<id>http://api.douban.com/book/subject/4225166</id>
-		<title>PHP基础教程</title>
+		<id>http://api.douban.com/book/subject/1456961</id>
+		<title>C++ Primer Plus</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>厄尔曼</name>
+			<name>Stephen Prata</name>
 		</author>
-		<link href="http://api.douban.com/book/subject/4225166" rel="self"/>
-		<link href="http://book.douban.com/subject/4225166/" rel="alternate"/>
-		<link href="http://img1.douban.com/spic/s6633933.jpg" rel="image"/>
-		<db:attribute name="isbn10">7115216789</db:attribute>
-		<db:attribute name="isbn13">9787115216786</db:attribute>
-		<db:attribute name="translator">贾菡 刘彦博</db:attribute>
-		<db:attribute name="author">厄尔曼</db:attribute>
-		<db:attribute name="price">49.00元</db:attribute>
-		<db:attribute name="publisher">人民邮电出版社</db:attribute>
-		<db:attribute name="pubdate">2010-1</db:attribute>
-		<gd:rating average="8.3" max="10" min="0" numRaters="33"/>
+		<link href="http://api.douban.com/book/subject/1456961" rel="self"/>
+		<link href="http://book.douban.com/subject/1456961/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s4351796.jpg" rel="image"/>
+		<db:attribute name="isbn10">0672326973</db:attribute>
+		<db:attribute name="isbn13">9780672326974</db:attribute>
+		<db:attribute name="author">Stephen Prata</db:attribute>
+		<db:attribute name="price">USD 59.99</db:attribute>
+		<db:attribute name="publisher">Sams</db:attribute>
+		<db:attribute name="pubdate">2004-11-25</db:attribute>
+		<gd:rating average="8.8" max="10" min="0" numRaters="64"/>
 	</entry>
 	<entry>
-		<id>http://api.douban.com/book/subject/4196842</id>
-		<title>PHP实战</title>
+		<id>http://api.douban.com/book/subject/1243974</id>
+		<title>C++  面向对象程序设计</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>Dagfinn Reiersol</name>
+			<name>萨维奇 (Walter Savitch)</name>
 		</author>
-		<author>
-			<name>Marcus Baker</name>
-		</author>
-		<author>
-			<name>Chris Shiflett</name>
-		</author>
-		<link href="http://api.douban.com/book/subject/4196842" rel="self"/>
-		<link href="http://book.douban.com/subject/4196842/" rel="alternate"/>
-		<link href="http://img1.douban.com/spic/s4101120.jpg" rel="image"/>
-		<db:attribute name="isbn10">7115217459</db:attribute>
-		<db:attribute name="isbn13">9787115217455</db:attribute>
-		<db:attribute name="translator">张颖 等</db:attribute>
-		<db:attribute name="translator">段大为 审校</db:attribute>
-		<db:attribute name="author">Dagfinn Reiersol</db:attribute>
-		<db:attribute name="author">Marcus Baker</db:attribute>
-		<db:attribute name="author">Chris Shiflett</db:attribute>
-		<db:attribute name="price">69.00元</db:attribute>
-		<db:attribute name="publisher">人民邮电出版社</db:attribute>
-		<db:attribute name="pubdate">2010-01</db:attribute>
-		<gd:rating average="8.2" max="10" min="0" numRaters="38"/>
+		<link href="http://api.douban.com/book/subject/1243974" rel="self"/>
+		<link href="http://book.douban.com/subject/1243974/" rel="alternate"/>
+		<link href="http://img5.douban.com/spic/s2314699.jpg" rel="image"/>
+		<db:attribute name="isbn10">7302075948</db:attribute>
+		<db:attribute name="isbn13">9787302075943</db:attribute>
+		<db:attribute name="translator">周靖</db:attribute>
+		<db:attribute name="author">萨维奇 (Walter Savitch)</db:attribute>
+		<db:attribute name="price">59.0</db:attribute>
+		<db:attribute name="publisher">清华大学出版社</db:attribute>
+		<db:attribute name="pubdate">2003年12月1日</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="6"/>
 	</entry>
 	<entry>
-		<id>http://api.douban.com/book/subject/4746407</id>
-		<title>深入PHP：面向对象、模式与实践（第2版）</title>
+		<id>http://api.douban.com/book/subject/4777006</id>
+		<title>C++</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>Matt Zandstra</name>
+			<name>Herbert Schildt</name>
 		</author>
-		<link href="http://api.douban.com/book/subject/4746407" rel="self"/>
-		<link href="http://book.douban.com/subject/4746407/" rel="alternate"/>
-		<link href="http://img1.douban.com/spic/s4261122.jpg" rel="image"/>
-		<db:attribute name="isbn10">7115225788</db:attribute>
-		<db:attribute name="isbn13">9787115225788</db:attribute>
-		<db:attribute name="translator">陈浩</db:attribute>
-		<db:attribute name="translator">吴孙滨</db:attribute>
-		<db:attribute name="translator">胡丹译</db:attribute>
-		<db:attribute name="author">Matt Zandstra</db:attribute>
-		<db:attribute name="price">59</db:attribute>
-		<db:attribute name="publisher">人民邮电出版社</db:attribute>
-		<db:attribute name="pubdate">201004</db:attribute>
-		<gd:rating average="8.7" max="10" min="0" numRaters="82"/>
+		<link href="http://api.douban.com/book/subject/4777006" rel="self"/>
+		<link href="http://book.douban.com/subject/4777006/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s4299083.jpg" rel="image"/>
+		<db:attribute name="isbn10">0078824761</db:attribute>
+		<db:attribute name="isbn13">9780078824760</db:attribute>
+		<db:attribute name="author">Herbert Schildt</db:attribute>
+		<db:attribute name="price">USD 39.99</db:attribute>
+		<db:attribute name="publisher">Osborne/McGraw-Hill</db:attribute>
+		<db:attribute name="pubdate">1998-08-01</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="2"/>
 	</entry>
 	<entry>
-		<id>http://api.douban.com/book/subject/2109775</id>
-		<title>PHP与MySQL基础教程</title>
+		<id>http://api.douban.com/book/subject/3324356</id>
+		<title>C++</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>Ullman,</name>
+			<name>Kayshav Dattatri</name>
 		</author>
-		<link href="http://api.douban.com/book/subject/2109775" rel="self"/>
-		<link href="http://book.douban.com/subject/2109775/" rel="alternate"/>
-		<link href="http://img1.douban.com/spic/s2513492.jpg" rel="image"/>
-		<db:attribute name="isbn10">7115156875</db:attribute>
-		<db:attribute name="isbn13">9787115156877</db:attribute>
-		<db:attribute name="author">Ullman,</db:attribute>
-		<db:attribute name="price">59.00元</db:attribute>
-		<db:attribute name="pubdate">2007-5</db:attribute>
-		<gd:rating average="8.2" max="10" min="0" numRaters="64"/>
+		<link href="http://api.douban.com/book/subject/3324356" rel="self"/>
+		<link href="http://book.douban.com/subject/3324356/" rel="alternate"/>
+		<link href="http://img5.douban.com/spic/s3391889.jpg" rel="image"/>
+		<db:attribute name="isbn10">0130867691</db:attribute>
+		<db:attribute name="isbn13">9780130867698</db:attribute>
+		<db:attribute name="author">Kayshav Dattatri</db:attribute>
+		<db:attribute name="price">USD 49.99</db:attribute>
+		<db:attribute name="publisher">Prentice Hall PTR</db:attribute>
+		<db:attribute name="pubdate">1999-10-07</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="0"/>
 	</entry>
 	<entry>
-		<id>http://api.douban.com/book/subject/2071057</id>
-		<title>PHP程序设计</title>
+		<id>http://api.douban.com/book/subject/1693197</id>
+		<title>C++</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>勒道夫</name>
+			<name>Herbert Schildt</name>
 		</author>
-		<link href="http://api.douban.com/book/subject/2071057" rel="self"/>
-		<link href="http://book.douban.com/subject/2071057/" rel="alternate"/>
-		<link href="http://img3.douban.com/spic/s2393468.jpg" rel="image"/>
-		<db:attribute name="isbn10">7121038706</db:attribute>
-		<db:attribute name="isbn13">9787121038709</db:attribute>
-		<db:attribute name="translator">陈浩</db:attribute>
-		<db:attribute name="translator">胡丹</db:attribute>
-		<db:attribute name="translator">徐景</db:attribute>
-		<db:attribute name="author">勒道夫</db:attribute>
-		<db:attribute name="price">80.00元</db:attribute>
-		<db:attribute name="publisher">电子工业出版社</db:attribute>
-		<db:attribute name="pubdate">2009-3</db:attribute>
-		<gd:rating average="7.6" max="10" min="0" numRaters="148"/>
+		<link href="http://api.douban.com/book/subject/1693197" rel="self"/>
+		<link href="http://book.douban.com/subject/1693197/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s4314425.jpg" rel="image"/>
+		<db:attribute name="isbn10">0072232153</db:attribute>
+		<db:attribute name="isbn13">9780072232158</db:attribute>
+		<db:attribute name="author">Herbert Schildt</db:attribute>
+		<db:attribute name="price">USD 26.99</db:attribute>
+		<db:attribute name="publisher">McGraw-Hill Osborne Media</db:attribute>
+		<db:attribute name="pubdate">2003-12-3</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="3"/>
 	</entry>
 	<entry>
-		<id>http://api.douban.com/book/subject/3765462</id>
-		<title>PHP高级程序设计</title>
+		<id>http://api.douban.com/book/subject/1630256</id>
+		<title>C++ Builder 5.0 Programmer’s Guide 编程员指南</title>
 		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
 		<author>
-			<name>Kevin McArthur</name>
+			<name>苟帅 张俊平等</name>
 		</author>
-		<link href="http://api.douban.com/book/subject/3765462" rel="self"/>
-		<link href="http://book.douban.com/subject/3765462/" rel="alternate"/>
-		<link href="http://img3.douban.com/spic/s3811388.jpg" rel="image"/>
-		<db:attribute name="isbn10">7115193177</db:attribute>
-		<db:attribute name="isbn13">9787115193179</db:attribute>
-		<db:attribute name="translator">汪泳　等</db:attribute>
-		<db:attribute name="author">Kevin McArthur</db:attribute>
-		<db:attribute name="price">45.00</db:attribute>
-		<db:attribute name="publisher">人民邮电出版社出版</db:attribute>
-		<db:attribute name="pubdate">2009.7</db:attribute>
-		<gd:rating average="7.6" max="10" min="0" numRaters="96"/>
+		<link href="http://api.douban.com/book/subject/1630256" rel="self"/>
+		<link href="http://book.douban.com/subject/1630256/" rel="alternate"/>
+		<link href="http://img3.douban.com/pics/book-default-small.gif" rel="image"/>
+		<db:attribute name="isbn10">7900044299</db:attribute>
+		<db:attribute name="isbn13">9787900044297</db:attribute>
+		<db:attribute name="author">苟帅 张俊平等</db:attribute>
+		<db:attribute name="price">42.00元</db:attribute>
+		<db:attribute name="publisher">北京希望电子出版社</db:attribute>
+		<db:attribute name="pubdate">2000-11</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="1"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/5466499</id>
+		<title>C++</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<link href="http://api.douban.com/book/subject/5466499" rel="self"/>
+		<link href="http://book.douban.com/subject/5466499/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s4583938.jpg" rel="image"/>
+		<db:attribute name="isbn10">1156415357</db:attribute>
+		<db:attribute name="isbn13">9781156415351</db:attribute>
+		<db:attribute name="price">USD 48.72</db:attribute>
+		<db:attribute name="publisher">Books LLC</db:attribute>
+		<db:attribute name="pubdate">2010-11-30</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="0"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/2607245</id>
+		<title>C++</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Childs, Jeffrey C.</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/2607245" rel="self"/>
+		<link href="http://book.douban.com/subject/2607245/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s7990621.jpg" rel="image"/>
+		<db:attribute name="isbn10">0131580515</db:attribute>
+		<db:attribute name="isbn13">9780131580510</db:attribute>
+		<db:attribute name="author">Childs, Jeffrey C.</db:attribute>
+		<db:attribute name="price">$ 131.00</db:attribute>
+		<db:attribute name="publisher">Prentice Hall</db:attribute>
+		<gd:rating average="0" max="10" min="0" numRaters="0"/>
 	</entry>
 	<opensearch:itemsPerPage>10</opensearch:itemsPerPage>
 </feed>

@@ -29,6 +29,11 @@ class Search
 		return $this->items;
 	}
 
+	public function getMore()
+	{
+		return 	$this->total - ( ($this->curPage - 1) * $this->pageField );
+	}
+
 	private function get( )
 	{
 		$start = ( $this->curPage-1 ) * $this->pageField + 1;

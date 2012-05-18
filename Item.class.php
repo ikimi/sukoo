@@ -11,6 +11,7 @@ class Item
 	private $binding;
 	private $translator;
 	private $pages;
+	private $summary;
 	private $apikey = '0954fe4c5321aaea1bfefae4f96500be';
 	
 	function __construct( $isbn )
@@ -31,24 +32,24 @@ class Item
 
 		$book = simplexml_load_string( $info );
 
-		$atom = $book->children( 'http://www.w2.org/2005/Atom' );
-		foreach( $atom->children( $link['href'] ) as $item )
+		foreach( $book->link as $link )
 		{
-			if( $item['rel'] == 'image' )
-			{
-				$this->img = $item['href'];
-			}
+			if( $link['rel'] == 'image' )
+				$this->img .= $link['href'];
 		}
 
+		$this->summary = $book->summary;
 		$db = $book->children( 'db' , TRUE );
 		foreach( $db->attribute as $value )
 		{
+			if( $value->attributes() == 'isbn13' )
+				$this->isbn13 .= $value;
 			if( $value->attributes() == 'title' )
 				$this->title .= $value;
 			if( $value->attributes() == 'author' )
-				$this->author .= $value.' ';
+				$this->author .= $value.'/';
 			if( $value->attributes() == 'translator' )
-				$this->translator .= $value.' ';
+				$this->translator .= $value.'/';
 			if( $value->attributes() == 'pages' )
 				$this->pages .= $value;
 			if( $value->attributes() == 'price' )
@@ -66,6 +67,7 @@ class Item
 	{
 		$item = array();
 		$item['img'] = $this->getImg();
+		$item['isbn'] = $this->getIsbn();
 		$item['title'] = $this->getTitle();
 		$item['author'] = $this->getAuthor();
 		$item['publisher'] = $this->getPublisher();
@@ -74,12 +76,18 @@ class Item
 		$item['translator'] = $this->getTranslator();
 		$item['binding'] = $this->getBinding();
 		$item['pages'] = $this->getPages();
+		$item['summary'] = $this->getSummary();
 		return $item;
 	}
 
 	private function getImg()
 	{
 		return $this->img;	
+	}
+
+	private function getIsbn()
+	{
+		return $this->isbn13;
 	}
 
 	private function getTitle()
@@ -120,6 +128,11 @@ class Item
 	private function getPubdate()
 	{
 		return $this->pubdate;
+	}
+
+	private function getSummary()
+	{
+		return $this->summary;
 	}
 }
 ?>
