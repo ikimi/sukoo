@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/">
+	<id>http://api.douban.com/book/subject/4196842</id>
+	<title>PHP实战</title>
+	<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+	<author>
+		<name>Dagfinn Reiersol</name>
+	</author>
+	<author>
+		<name>Marcus Baker</name>
+	</author>
+	<author>
+		<name>Chris Shiflett</name>
+	</author>
+	<link href="http://api.douban.com/book/subject/4196842" rel="self"/>
+	<link href="http://book.douban.com/subject/4196842/" rel="alternate"/>
+	<link href="http://img1.douban.com/spic/s4101120.jpg" rel="image"/>
+	<summary>“对于那些想要在PHP方面更进一步的开发者而言，此书必不可少。”
+——Gabriel Malkas， Developpez.com
+“简而言之，这是我所读过的关于面向对象编程和PHP最好的图书。……强烈推荐此书，绝不要错过！”
+——Amazon评论
+“此书是理论与实践的完美融合，到目前为止，其他任何图书都无法与它相媲美。如果5颗星是满分，它完全值得10颗星!”
+——Amazon评论
+近几年，PHP的发展突飞猛进，业已超越Java和ASP，成为目前最流行的Web开发语言。而随着PHP 5的发布和Zend框架项目的应用，PHP和敏捷思想、设计模式以及单元测试的联姻成为主流话题。
+本书首先介绍了面向对象设计的原则、模式和技巧，然后讲述了如何在PHP上利用其语法和特性，处理和实施这些原则、模式和技巧，并应用于Web编程中遇到的难题上。通过作者生动的叙述，读者可以学习到先进的面向对象实践、理论和技巧，对PHP有更深层、更透彻的理解，极大地提升自己面向对象设计和编程能力。</summary>
+	<db:attribute name="isbn10">7115217459</db:attribute>
+	<db:attribute name="isbn13">9787115217455</db:attribute>
+	<db:attribute name="title">PHP实战</db:attribute>
+	<db:attribute name="pages">444</db:attribute>
+	<db:attribute name="translator">张颖 等</db:attribute>
+	<db:attribute name="translator">段大为 审校</db:attribute>
+	<db:attribute name="author">Dagfinn Reiersol</db:attribute>
+	<db:attribute name="author">Marcus Baker</db:attribute>
+	<db:attribute name="author">Chris Shiflett</db:attribute>
+	<db:attribute name="price">69.00元</db:attribute>
+	<db:attribute name="publisher">人民邮电出版社</db:attribute>
+	<db:attribute name="binding">平装</db:attribute>
+	<db:attribute name="pubdate">2010-01</db:attribute>
+	<db:attribute name="author-intro">Dagfinn Reiersøl 资深软件咨询师，有10年以上的从业经验，设计并开发了Web应用程序、Web内容挖掘软件、Web编程工具以及文本分析程序，其中绝大多数都是针对PHP的。他居住在挪威奥斯陆。
+Marcus Baker 资深软件咨询师，多年来一直从事面向对象设计和开发以及Web程序开发和测试方面的工作。他同时也是PHP Architecture Magazine的专栏作家。
+Chris Shiflett  PHP软件咨询师、安全专家以及PHP社区的领军人物。他是PHP安全协会的奠基者，也是HTTP Developer’s Handbook和Essential PHP Security两本图书的作者。</db:attribute>
+	<db:tag count="40" name="PHP"/>
+	<db:tag count="11" name="面向对象"/>
+	<db:tag count="8" name="web开发"/>
+	<db:tag count="6" name="计算机"/>
+	<db:tag count="5" name="技术"/>
+	<db:tag count="3" name="程序设计"/>
+	<db:tag count="2" name="Programming"/>
+	<db:tag count="2" name="编程"/>
+	<gd:rating average="8.2" max="10" min="0" numRaters="38"/>
+</entry>

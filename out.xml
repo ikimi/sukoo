@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:db="http://www.douban.com/xmlns/" xmlns:gd="http://schemas.google.com/g/2005" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/">
+	<title>搜索 PHP 的结果</title>
+	<opensearch:startIndex>1</opensearch:startIndex>
+	<opensearch:totalResults>6828</opensearch:totalResults>
+	<entry>
+		<id>http://api.douban.com/book/subject/1958938</id>
+		<title>PHP与MySQL 5程序设计</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>W.Jason Gilmore</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1958938" rel="self"/>
+		<link href="http://book.douban.com/subject/1958938/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s2160043.jpg" rel="image"/>
+		<db:attribute name="isbn10">7115155097</db:attribute>
+		<db:attribute name="isbn13">9787115155092</db:attribute>
+		<db:attribute name="translator">朱涛江</db:attribute>
+		<db:attribute name="author">W.Jason Gilmore</db:attribute>
+		<db:attribute name="price">79</db:attribute>
+		<db:attribute name="publisher">人民邮电出版社</db:attribute>
+		<db:attribute name="pubdate">2007年01月</db:attribute>
+		<gd:rating average="7.8" max="10" min="0" numRaters="275"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/3549421</id>
+		<title>PHP和MySQL Web开发(原书第4版)</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Luke Welling</name>
+		</author>
+		<author>
+			<name>Laura Thomson</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/3549421" rel="self"/>
+		<link href="http://book.douban.com/subject/3549421/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s3773304.jpg" rel="image"/>
+		<db:attribute name="isbn10">7111262816</db:attribute>
+		<db:attribute name="isbn13">9787111262817</db:attribute>
+		<db:attribute name="translator">武欣</db:attribute>
+		<db:attribute name="author">Luke Welling</db:attribute>
+		<db:attribute name="author">Laura Thomson</db:attribute>
+		<db:attribute name="price">95.00元</db:attribute>
+		<db:attribute name="publisher">机械工业出版社</db:attribute>
+		<db:attribute name="pubdate">2009</db:attribute>
+		<gd:rating average="8.5" max="10" min="0" numRaters="353"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/3253845</id>
+		<title>Head First PHP &amp; MySQL</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Lynn Beighley</name>
+		</author>
+		<author>
+			<name>Michael Morrison</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/3253845" rel="self"/>
+		<link href="http://book.douban.com/subject/3253845/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s8959264.jpg" rel="image"/>
+		<db:attribute name="isbn10">0596006306</db:attribute>
+		<db:attribute name="isbn13">9780596006303</db:attribute>
+		<db:attribute name="author">Lynn Beighley</db:attribute>
+		<db:attribute name="author">Michael Morrison</db:attribute>
+		<db:attribute name="price">USD 44.99</db:attribute>
+		<db:attribute name="publisher">O'Reilly Media</db:attribute>
+		<db:attribute name="pubdate">2008-12-29</db:attribute>
+		<gd:rating average="8.9" max="10" min="0" numRaters="36"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/1340507</id>
+		<title>PHP和MySQL Web开发（原书第3版）</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Luke Welling</name>
+		</author>
+		<author>
+			<name>Laura Thomson</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/1340507" rel="self"/>
+		<link href="http://book.douban.com/subject/1340507/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s1627655.jpg" rel="image"/>
+		<db:attribute name="isbn10">7111154703</db:attribute>
+		<db:attribute name="isbn13">9787111154709</db:attribute>
+		<db:attribute name="translator">武欣</db:attribute>
+		<db:attribute name="translator">邵煜</db:attribute>
+		<db:attribute name="publisher">第1版 (2005年12月1日)</db:attribute>
+		<db:attribute name="author">Luke Welling</db:attribute>
+		<db:attribute name="author">Laura Thomson</db:attribute>
+		<db:attribute name="price">78.0</db:attribute>
+		<db:attribute name="pubdate">2005-6</db:attribute>
+		<gd:rating average="8.5" max="10" min="0" numRaters="437"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/4225166</id>
+		<title>PHP基础教程</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>厄尔曼</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/4225166" rel="self"/>
+		<link href="http://book.douban.com/subject/4225166/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s6633933.jpg" rel="image"/>
+		<db:attribute name="isbn10">7115216789</db:attribute>
+		<db:attribute name="isbn13">9787115216786</db:attribute>
+		<db:attribute name="translator">贾菡 刘彦博</db:attribute>
+		<db:attribute name="author">厄尔曼</db:attribute>
+		<db:attribute name="price">49.00元</db:attribute>
+		<db:attribute name="publisher">人民邮电出版社</db:attribute>
+		<db:attribute name="pubdate">2010-1</db:attribute>
+		<gd:rating average="8.3" max="10" min="0" numRaters="33"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/4196842</id>
+		<title>PHP实战</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Dagfinn Reiersol</name>
+		</author>
+		<author>
+			<name>Marcus Baker</name>
+		</author>
+		<author>
+			<name>Chris Shiflett</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/4196842" rel="self"/>
+		<link href="http://book.douban.com/subject/4196842/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s4101120.jpg" rel="image"/>
+		<db:attribute name="isbn10">7115217459</db:attribute>
+		<db:attribute name="isbn13">9787115217455</db:attribute>
+		<db:attribute name="translator">张颖 等</db:attribute>
+		<db:attribute name="translator">段大为 审校</db:attribute>
+		<db:attribute name="author">Dagfinn Reiersol</db:attribute>
+		<db:attribute name="author">Marcus Baker</db:attribute>
+		<db:attribute name="author">Chris Shiflett</db:attribute>
+		<db:attribute name="price">69.00元</db:attribute>
+		<db:attribute name="publisher">人民邮电出版社</db:attribute>
+		<db:attribute name="pubdate">2010-01</db:attribute>
+		<gd:rating average="8.2" max="10" min="0" numRaters="38"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/4746407</id>
+		<title>深入PHP：面向对象、模式与实践（第2版）</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Matt Zandstra</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/4746407" rel="self"/>
+		<link href="http://book.douban.com/subject/4746407/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s4261122.jpg" rel="image"/>
+		<db:attribute name="isbn10">7115225788</db:attribute>
+		<db:attribute name="isbn13">9787115225788</db:attribute>
+		<db:attribute name="translator">陈浩</db:attribute>
+		<db:attribute name="translator">吴孙滨</db:attribute>
+		<db:attribute name="translator">胡丹译</db:attribute>
+		<db:attribute name="author">Matt Zandstra</db:attribute>
+		<db:attribute name="price">59</db:attribute>
+		<db:attribute name="publisher">人民邮电出版社</db:attribute>
+		<db:attribute name="pubdate">201004</db:attribute>
+		<gd:rating average="8.7" max="10" min="0" numRaters="82"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/2109775</id>
+		<title>PHP与MySQL基础教程</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Ullman,</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/2109775" rel="self"/>
+		<link href="http://book.douban.com/subject/2109775/" rel="alternate"/>
+		<link href="http://img1.douban.com/spic/s2513492.jpg" rel="image"/>
+		<db:attribute name="isbn10">7115156875</db:attribute>
+		<db:attribute name="isbn13">9787115156877</db:attribute>
+		<db:attribute name="author">Ullman,</db:attribute>
+		<db:attribute name="price">59.00元</db:attribute>
+		<db:attribute name="pubdate">2007-5</db:attribute>
+		<gd:rating average="8.2" max="10" min="0" numRaters="64"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/2071057</id>
+		<title>PHP程序设计</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>勒道夫</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/2071057" rel="self"/>
+		<link href="http://book.douban.com/subject/2071057/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s2393468.jpg" rel="image"/>
+		<db:attribute name="isbn10">7121038706</db:attribute>
+		<db:attribute name="isbn13">9787121038709</db:attribute>
+		<db:attribute name="translator">陈浩</db:attribute>
+		<db:attribute name="translator">胡丹</db:attribute>
+		<db:attribute name="translator">徐景</db:attribute>
+		<db:attribute name="author">勒道夫</db:attribute>
+		<db:attribute name="price">80.00元</db:attribute>
+		<db:attribute name="publisher">电子工业出版社</db:attribute>
+		<db:attribute name="pubdate">2009-3</db:attribute>
+		<gd:rating average="7.6" max="10" min="0" numRaters="147"/>
+	</entry>
+	<entry>
+		<id>http://api.douban.com/book/subject/3765462</id>
+		<title>PHP高级程序设计</title>
+		<category scheme="http://www.douban.com/2007#kind" term="http://www.douban.com/2007#book"/>
+		<author>
+			<name>Kevin McArthur</name>
+		</author>
+		<link href="http://api.douban.com/book/subject/3765462" rel="self"/>
+		<link href="http://book.douban.com/subject/3765462/" rel="alternate"/>
+		<link href="http://img3.douban.com/spic/s3811388.jpg" rel="image"/>
+		<db:attribute name="isbn10">7115193177</db:attribute>
+		<db:attribute name="isbn13">9787115193179</db:attribute>
+		<db:attribute name="translator">汪泳　等</db:attribute>
+		<db:attribute name="author">Kevin McArthur</db:attribute>
+		<db:attribute name="price">45.00</db:attribute>
+		<db:attribute name="publisher">人民邮电出版社出版</db:attribute>
+		<db:attribute name="pubdate">2009.7</db:attribute>
+		<gd:rating average="7.6" max="10" min="0" numRaters="96"/>
+	</entry>
+	<opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+</feed>
