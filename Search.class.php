@@ -22,14 +22,14 @@ class Search
 		$this->items = array();
 	}
 
-	public function search()
+	function search()
 	{
 		$this->get();
 		$this->parser();
 		return $this->items;
 	}
 
-	public function getMore()
+	public  function getMore()
 	{
 		return 	$this->total - ( ($this->curPage - 1) * $this->pageField );
 	}
@@ -61,21 +61,22 @@ class Search
 		foreach( $entries as $entry )
 		{
 			$db = $entry->children( 'db' , TRUE );
+			$info = array();
 			foreach( $db->attribute as $value )
 			{
 				if( $value->attributes() == 'isbn10' )
-					$info['isbn'] = $value;
+					$info['isbn'] .= $value;
 				if( $value->attributes() == 'translator' )
-					$info['translator'] = $value;
+					$info['translator'] .= $value;
 				if( $value->attributes() == 'price' )
-					$info['price'] = $value;
+					$info['price'] .= $value;
 				if( $value->attributes() == 'publisher' )
-					$info['publisher'] = $value;
+					$info['publisher'] .= $value;
 				if( $value->attributes() == 'pubdate' )
-					$info['pubdate'] = $value;
+					$info['pubdate'] .= $value;
 			}
-			$info['title'] = $entry->title;
-			$info['author'] = $entry->author->name;
+			$info['title'] .= $entry->title;
+			$info['author'] .= $entry->author->name;
 			$this->items[] = $info;
 		}
 	}

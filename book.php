@@ -10,7 +10,7 @@ $info = $item->show();
 <!DOCTYPE html> 
 	<html> 
 		　<head> 
-		　　<title>舒克</title>
+		　　<title>sukoo</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<meta charset='utf-8'>
 				<link rel="stylesheet" href="style.css">
@@ -20,6 +20,7 @@ $info = $item->show();
 		</head> 
 		<body>
 			<div data-role="page"  data-theme="b">
+			<a href='book.php' data-rel="back">返回</a>
 			<h3><?=$info['title']?></h3>
 			<div id="above">
 				<div id="pic">
